@@ -10,7 +10,6 @@ This project uses:
 - pytesseract - image to text
 - opencv-python - image manipulation
 - pynput - detect mouse input
-- fuzzywuzzy - for fuzzy string detection ❌
 - playsound - for alerting the user
 
 But you can just run the setup.py file to install all packages  
