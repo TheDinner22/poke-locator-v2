@@ -13,6 +13,14 @@ from lib.img_to_text import Reader
 
 
 def check_nearby(cam):
+    """check nearby for pokemon using a built-in mc command
+
+    Args:
+        cam ([class]): [camera class from the screenshot.py file]
+
+    Returns:
+        [bool]: [true if a pokemon is nearby and an alert is needed]
+    """
     # enter the command in mc
     type_lt()
 

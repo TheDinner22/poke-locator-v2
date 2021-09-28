@@ -7,7 +7,7 @@ from playsound import playsound
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # adds project dir to places it looks for the modules
 sys.path.append(BASE_PATH)
 
-from config import number_of_plays
+from lib.config import number_of_plays
 
 class Speaker():
     def __init__(self):
